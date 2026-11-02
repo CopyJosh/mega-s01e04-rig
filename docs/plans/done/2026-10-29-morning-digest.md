@@ -1,8 +1,9 @@
 ---
 plan: morning-digest
-status: ready
+status: finished
 owner: rook
 opened: 2026-10-29
+closed: 2026-11-02
 ---
 
 # Morning digest
@@ -77,3 +78,14 @@ page again with `LANE_MARKER` unset (the banner reads "no marker set") and uploa
 link. Move this plan to `docs/plans/done/` with its issue list.
 
 Done when: the preview link no longer shows the lane marker.
+
+## Issues
+
+- [Digest contract: shared types and reader signature](https://github.com/CopyJosh/mega-s01e04-rig/issues/1)
+- [Run-log reader: aggregate jobs and count malformed lines](https://github.com/CopyJosh/mega-s01e04-rig/issues/2)
+- [Digest page: render a sorted nightly table](https://github.com/CopyJosh/mega-s01e04-rig/issues/3)
+- [Digest JSON: expose the same sorted jobs](https://github.com/CopyJosh/mega-s01e04-rig/issues/4)
+- [Status board: link nights and show outcome counts](https://github.com/CopyJosh/mega-s01e04-rig/issues/5)
+- [Digest route tests: normal, missing, empty, and malformed nights](https://github.com/CopyJosh/mega-s01e04-rig/issues/6)
+- [Review preview: save static HTML and send the reviewer its link](https://github.com/CopyJosh/mega-s01e04-rig/issues/7)
+- [Preview cleanup: remove the marker and archive the plan](https://github.com/CopyJosh/mega-s01e04-rig/issues/8)
