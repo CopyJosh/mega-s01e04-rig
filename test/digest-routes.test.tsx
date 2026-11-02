@@ -118,6 +118,6 @@ describe('digest routes', () => {
     expect(digest).toMatchObject({ badLines: 1, rows: [{ job: 'still-ran', owner: null, firstAt: '2026-10-26T08:00:00+02:00' }] });
     expect(html).toContain('still-ran');
     expect(html).toContain('2026-10-26T08:00:00+02:00');
-    expect(html).toMatch(/bad line|malformed|warning/i);
+    expect(html).toMatch(/1 invalid line ignored/i);
   });
 });
